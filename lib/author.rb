@@ -1,5 +1,6 @@
 class Author 
   attr_accessor :name 
+<<<<<<< HEAD
   @@all = [ ]
   
   def initialize(name)
@@ -36,4 +37,11 @@ class Author
     ar.length
   end
 
+=======
+  
+  def initialize(name)
+    @name = name 
+  end
+  
+>>>>>>> e357439bd250c76eb0b45a8c406b8c7adf91bd38
 end 
